@@ -26,8 +26,8 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
-pic.html
 
+```
 <html>
 <head>
   <meta charset="UTF-8">
@@ -149,7 +149,7 @@ pic.html
         <div class="image-label">PIC 8</div>
       </div>
       <div class="col-2 text-center">
-        <img src="hh.jpeg" class="img-fluid rounded">
+        <img src="ll.jpeg" class="img-fluid rounded">
         <div class="image-label">PIC 9</div>
       </div>
       <div class="col-2 text-center">
@@ -173,7 +173,7 @@ pic.html
         <div class="image-label">PIC 13</div>
       </div>
       <div class="col-2 text-center">
-        <img src="nn.jpeg" class="img-fluid rounded">
+        <img src="koo.jpeg" class="img-fluid rounded">
         <div class="image-label">PIC 14</div>
       </div>
       <div class="col-2 text-center">
@@ -197,6 +197,7 @@ pic.html
 
 </body>
 </html>
+```
 
 ## OUTPUT:
 ![alt text](<Screenshot (88).png>)
