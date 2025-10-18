@@ -28,47 +28,18 @@ Publish the website in the LocalHost.
 ## PROGRAM :
 
 ```
-<html>
-<head>
-  <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
   <title>Dribbble Style Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: green;
-    }
-    .subtext {
-      color: rgb(209, 155, 155);
-    }
-    .btn-learn {
-      background-color:greenyellow;
-      color: grey;
-    }
-    .btn-signup {
-      background-color: yellow;
-      color:black;
-    }
-    .image-label {
-      font-size: 14px;
-      text-align: orange;
-      margin-top: 5px;
-    }
-    .navbar-brand {
-      color: purple;
-      font-weight: bold;
-      font-size: 20px;
-    }
-  </style>
 </head>
 <body>
-
-  <!-- Dark Theme Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <!-- Dribbble brand on left -->
+      
       <a class="navbar-brand" href="#">Dribbble</a>
 
-      <!-- Navbar items -->
+      
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
           <li class="nav-item">
@@ -94,13 +65,13 @@ Publish the website in the LocalHost.
     </div>
   </nav>
 
-  <!-- Top Bar for Sign In / Sign Up -->
+  
   <div class="d-flex justify-content-end p-3 bg-white">
     <a href="#" class="me-3 text-decoration-none">Sign in</a>
     <a href="#" class="btn btn-signup">Sign up</a>
   </div>
 
-  <!-- Header Section -->
+  
   <div class="text-center my-4">
     <h4 class="fw-bold">What are you working on?</h4>
     <p class="subtext">Dribbble is show and tell for designers.</p>
@@ -108,9 +79,9 @@ Publish the website in the LocalHost.
     <button class="btn btn-signup">Sign up</button>
   </div>
 
-  <!-- Image Grid -->
+  
   <div class="container">
-    <!-- Row 1 -->
+  
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="car.jpg" class="img-fluid rounded">
@@ -138,7 +109,7 @@ Publish the website in the LocalHost.
       </div>
     </div>
 
-    <!-- Row 2 -->
+    
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="spiderman.jpeg" class="img-fluid rounded">
@@ -166,7 +137,7 @@ Publish the website in the LocalHost.
       </div>
     </div>
 
-    <!-- Row 3 -->
+    
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="ww.webp" class="img-fluid rounded">
